@@ -8,11 +8,15 @@ Zillow doesn't like people scraping their website so it might not work again aft
 Run the scraper function (you can modify the url to get the city you want), it will export a csv file. 
 
 
-point the api function to the csv that you just created, this will take the addresses from that and plug them into the zillow api. 
 
-you will need a zillow ID to do this. 
+you will need your own zillow ID to access the API. 
 
 
-once you have the features from zillow you can put them into the ipython notebook to create a model for your city. 
+once you have the addresses from zillow (in the csv from the scraper)
+
+you can put them into the ipython notebook to create a model for your city. 
+
+point the api in the notebook to the csv that was created. 
+
 
 Currently it only takes sq footage, number of bathrooms and bedrooms and year built as features. 
